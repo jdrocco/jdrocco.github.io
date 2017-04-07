@@ -2,8 +2,8 @@ var w = window,
     d = document,
     e = d.documentElement,
     g = d.getElementById('particles-js')[0],
-    width = w.innerWidth || e.clientWidth || g.clientWidth,
-    height = w.innerHeight|| e.clientHeight || g.clientHeight;
+    width = g.clientWidth,
+    height = g.clientHeight;
 
 var svg = d3.select("#particles-js").append("svg").attr("width",width)
             .attr("height",height);
