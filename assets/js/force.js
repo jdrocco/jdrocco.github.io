@@ -14,7 +14,7 @@ var nodeData = [];
 
 var hexbin = d3.hexbin()
     .size([width, height])
-    .radius(20);
+    .radius(21);
 
 var k, numcircs=hexbin.centers().length;
 for (k = 0; k < numcircs; k++) {
