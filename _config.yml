@@ -9,12 +9,12 @@ username: Jeff Drocco
 user_description: Cupertino, Notre Dame, Princeton, LANL, LLNL
 user_title: Scientist
 email: jeff@drocco.org
-twitter_username: lorem_ipsum
+facebook_username: jeff.drocco
 github_username:  jdrocco
-gplus_username:  jdrocco
+linkedin_username:  jeffdrocco
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-96997533-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
