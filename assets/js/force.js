@@ -20,7 +20,7 @@ var k, numcircs=hexbin.centers().length;
 for (k = 0; k < numcircs; k++) {
     nodeData.push( { 'x': hexbin.centers()[k][0],
       'y': hexbin.centers()[k][1],
-      'r': Math.random() * 15 + 10});
+      'r': Math.random() * 14 + 11});
 }
 
 var nodePadding = 0.02
