@@ -14,13 +14,13 @@ var nodeData = [];
 
 var hexbin = d3.hexbin()
     .size([width, height])
-    .radius(26);
+    .radius(28);
 
 var k, numcircs=hexbin.centers().length;
 for (k = 0; k < numcircs; k++) {
     nodeData.push( { 'x': hexbin.centers()[k][0],
       'y': hexbin.centers()[k][1],
-      'r': Math.random() * 15 + 14});
+      'r': Math.random() * 16 + 16});
 }
 
 var nodePadding = 0.02
