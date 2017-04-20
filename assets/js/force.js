@@ -70,10 +70,3 @@ var simulation = d3.forceSimulation(nodeData).alphaDecay(0.01).force("collisionF
 
  simulation.on("tick",ticker);
 
- w.addEventListener('orientationchange', function () {
-   var originalBodyStyle = getComputedStyle(document.body).getPropertyValue('display');
-   document.body.style.display='none';
-   setTimeout(function () {
-     document.body.style.display = originalBodyStyle;
-   }, 10);
- });
