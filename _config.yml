@@ -16,5 +16,9 @@ linkedin_username:  jeffdrocco
 # Google-analytics
 google-analytics:
   id: "UA-96997533-1"
+  
+# SEO tags
+gems:
+  - jekyll-seo-tag
 
 exclude: ['package.json', 'src' , 'node_modules']
